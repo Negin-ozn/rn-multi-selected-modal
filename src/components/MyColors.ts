@@ -1,0 +1,9 @@
+export const INPUT_BACKGROUND = '#F5F7FC';
+export const SECONDARY_TEXT = '#B1B3C8';
+export const PRIMARY_TEXT = '#1E293B';
+export const BORDER_COLOR = '#E6E7E8';
+export const UNDERLINE = '#EFF1F6';
+export const SECONDARY = '#DBD9FF';
+export const PRIMARY = "#5850EC";
+export const WHITE = '#FFFFFF';
+export const BLACK = '#000000';
