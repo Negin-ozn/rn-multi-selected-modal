@@ -3,11 +3,18 @@
 [![npm version](https://img.shields.io/npm/v/rn-multi-selected-modal)](https://www.npmjs.com/package/rn-multi-selected-modal)
 [![npm downloads](https://img.shields.io/npm/dw/rn-multi-selected-modale)](https://www.npmjs.com/package/rn-multi-selected-modal)
 
+<br/>
+
 A modal to select multi items from a list of data for React native. Platform Android/ios.
 
+<br/>
+<br/>
 
-![multi-selected-modal gif](./docs/rn-multi-selected-modal.gif)
-
+<p align="center">
+<img alt='Get it on Google Play' src="./docs/rn-multi-selected-modal.gif" height="500" />
+</p>
+<br/>
+<br/>
 
 # Getting started
 
@@ -42,6 +49,8 @@ If yoy want yo use it for ios platform
 ```sh
 cd ios && pod install
 ```
+<br/>
+<br/>
 
 # Usage 
 
@@ -102,6 +111,9 @@ const App = () => {
 }
 ```
 
+<br/>
+<br/>
+
 # Properties
 
 We have the props as following for customizing and pass data:
@@ -115,6 +127,8 @@ We have the props as following for customizing and pass data:
 | **`modalVisible`**   | Value that shows the visibility of modal.                                                                | false       |
 | **`selectedItems`**  | List of items that are selected.                                                                         | Empty Array |
 | **`onChangeSelect`** | A function that describe what you want to do on selecting an item (we retuen the selected item for you). | _None_      |
+
+<br/>
 
 ## Optional
 
