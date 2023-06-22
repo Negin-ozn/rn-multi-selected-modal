@@ -11,7 +11,7 @@ A modal to select multi items from a list of data for React native. Platform And
 <br/>
 
 <p align="center">
-<img alt='Get it on Google Play' src="./docs/rn-multi-selected-modal.gif" height="500" />
+<img alt='react-native-multi-selected-modal' src="https://github.com/Negin-ozn/rn-multi-selected-modal/blob/main/docs/rn-multi-selected-modal.gif?raw=true" height="500" />
 </p>
 <br/>
 <br/>
@@ -132,12 +132,14 @@ We have the props as following for customizing and pass data:
 
 ## Optional
 
-| Prop                         | Description                                                                  | Default                                               |
-| ---------------------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------- |
-| **`checkBoxColor`**          | The color of checkbox when the item is selected. It should be a string value | "#5850EC"                                             |
-| **`itemTitleStyle`**         | Style of the item's title.                                                   | [Text style](https://reactnative.dev/docs/style.html) |
-| **`confirmBtnTitle`**        | The title of button that close the modal. It should be a string value        | Confirm                                               |
-| **`confirmBtnStyle`**        | Style of the confirm button                                                  | [View style](https://reactnative.dev/docs/style.html) |
-| **`confirmTxtStyle`**        | Style of the confirm button title.                                           | [Text style](https://reactnative.dev/docs/style.html) |
-| **`searchPlaceHolder`**      | The text as a placeholder in search input. It should be a string value       | Search by name                                        |
-| **`checkBoxContainerStyle`** | Style of the check boxes                                                     | [View style](https://reactnative.dev/docs/style.html) |
+| Prop                         | Description                                                                                                           | Default                                               |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| **`checkBoxColor`**          | The color of checkbox when the item is selected. It should be a string value                                          | "#5850EC"                                             |
+| **`listEmptyTitle`**         | The title that is shown when we don't have any result of searching or the data is empty. It should be a string value. | No Item match!                                        |
+| **`itemTitleStyle`**         | Style of the item's title.                                                                                            | [Text style](https://reactnative.dev/docs/style.html) |
+| **`confirmBtnTitle`**        | The title of button that close the modal. It should be a string value                                                 | Confirm                                               |
+| **`confirmBtnStyle`**        | Style of the confirm button                                                                                           | [View style](https://reactnative.dev/docs/style.html) |
+| **`confirmTxtStyle`**        | Style of the confirm button title.                                                                                    | [Text style](https://reactnative.dev/docs/style.html) |
+| **`searchPlaceHolder`**      | The text as a placeholder in search input. It should be a string value                                                | Search by name                                        |
+| **`listEmptyTitleStyle`**    | The style of list empty title.                                                                                        | [Text style](https://reactnative.dev/docs/style.html) |
+| **`checkBoxContainerStyle`** | Style of the check boxes                                                                                              | [View style](https://reactnative.dev/docs/style.html) |

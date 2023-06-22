@@ -16,11 +16,13 @@ interface Prop {
     modalVisible: boolean;
     selectedItems: List[];
     checkBoxColor?: string;
+    listEmptyTitle?: string;
     confirmBtnTitle?: string;
     searchPlaceHolder?: string;
     itemTitleStyle?: TextStyle;
     confirmBtnStyle?: ViewStyle;
     confirmTxtStyle?: TextStyle;
+    listEmptyTitleStyle?: TextStyle;
     checkBoxContainerStyle?: ViewStyle;
     onChangeSelect: (item: List) => void;
 }
@@ -89,7 +91,7 @@ const MultiSelected = (props: Prop) => {
                         ListEmptyComponent={() => {
                             return (
                                 <View >
-                                    <Text style={styles.emptyText}>No Item match!</Text>
+                                    <Text style={[styles.emptyText, { ...props.listEmptyTitleStyle }]}>{props.listEmptyTitle ?? "No Item match!"}</Text>
                                 </View>
                             )
                         }}
