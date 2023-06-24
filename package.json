@@ -1,6 +1,6 @@
 {
   "name": "rn-multi-selected-modal",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A modal to render a list of data for multi selecting",
   "homepage": "https://github.com/Negin-ozn/rn-multi-selected-modal#readme",
   "main": "lib/index.js",

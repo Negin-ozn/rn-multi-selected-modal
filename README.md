@@ -132,16 +132,16 @@ We have the props as following for customizing and pass data:
 
 ## Optional
 
-| Prop                              | Description                                                                                                           | Default                                               |
-| --------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| **`checkBoxColor`**               | The color of checkbox when the item is selected. It should be a string value                                          | "#5850EC"                                             |
-| **`listEmptyTitle`**              | The title that is shown when we don't have any result of searching or the data is empty. It should be a string value. | No Item match!                                        |
-| **`itemTitleStyle`**              | Style of the item's title.                                                                                            | [Text style](https://reactnative.dev/docs/style.html) |
-| **`confirmBtnTitle`**             | The title of button that close the modal. It should be a string value                                                 | Confirm                                               |
-| **`confirmBtnStyle`**             | Style of the confirm button                                                                                           | [View style](https://reactnative.dev/docs/style.html) |
-| **`confirmTxtStyle`**             | Style of the confirm button title.                                                                                    | [Text style](https://reactnative.dev/docs/style.html) |
-| **`searchPlaceHolder`**           | The text as a placeholder in search input. It should be a string value                                                | Search by name                                        |
-| **`listEmptyTitleStyle`**         | The style of list empty title.                                                                                        | [Text style](https://reactnative.dev/docs/style.html) |
-| **`checkBoxContainerStyle`**      | Style of the check boxes                                                                                              | [View style](https://reactnative.dev/docs/style.html) |
-| **`checkBoxSelectedIconIcon`**    | The Icon in the check box when it is selected                                                                         | [React Node](https://reactnative.dev/docs/react-node) |
-| **`checkBoxNotSelectedIconIcon`** | The Icon in the check box when it is not selected                                                                     | [React Node](https://reactnative.dev/docs/react-node) |
+| Prop                          | Description                                                                                                           | Default                                               |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| **`checkBoxColor`**           | The color of checkbox when the item is selected. It should be a string value                                          | "#5850EC"                                             |
+| **`listEmptyTitle`**          | The title that is shown when we don't have any result of searching or the data is empty. It should be a string value. | No Item match!                                        |
+| **`itemTitleStyle`**          | Style of the item's title.                                                                                            | [Text style](https://reactnative.dev/docs/style.html) |
+| **`confirmBtnTitle`**         | The title of button that close the modal. It should be a string value                                                 | Confirm                                               |
+| **`confirmBtnStyle`**         | Style of the confirm button                                                                                           | [View style](https://reactnative.dev/docs/style.html) |
+| **`confirmTxtStyle`**         | Style of the confirm button title.                                                                                    | [Text style](https://reactnative.dev/docs/style.html) |
+| **`searchPlaceHolder`**       | The text as a placeholder in search input. It should be a string value                                                | Search by name                                        |
+| **`listEmptyTitleStyle`**     | The style of list empty title.                                                                                        | [Text style](https://reactnative.dev/docs/style.html) |
+| **`checkBoxContainerStyle`**  | Style of the check boxes                                                                                              | [View style](https://reactnative.dev/docs/style.html) |
+| **`checkBoxSelectedIcon`**    | The Icon in the check box when it is selected                                                                         | [React Node](https://reactnative.dev/docs/react-node) |
+| **`checkBoxNotSelectedIcon`** | The Icon in the check box when it is not selected                                                                     | [React Node](https://reactnative.dev/docs/react-node) |

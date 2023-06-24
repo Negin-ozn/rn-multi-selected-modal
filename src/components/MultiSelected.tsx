@@ -25,8 +25,8 @@ interface Prop {
     listEmptyTitleStyle?: TextStyle;
     checkBoxContainerStyle?: ViewStyle;
     onChangeSelect: (item: List) => void;
-    checkBoxSelectedIconIcon?: React.ReactNode;
-    checkBoxNotSelectedIconIcon?: React.ReactNode;
+    checkBoxSelectedIcon?: React.ReactNode;
+    checkBoxNotSelectedIcon?: React.ReactNode;
 }
 
 const MultiSelected = (props: Prop) => {
@@ -47,8 +47,8 @@ const MultiSelected = (props: Prop) => {
                     backgroundColor: props.selectedItems.some((i) => i.id === item.id) ? props.checkBoxColor ?? MyColors.PRIMARY : 'transparent',
                 }]}>
                     {props.selectedItems.some((i) => i.id === item.id) ?
-                        props.checkBoxSelectedIconIcon ? props.checkBoxSelectedIconIcon : <CheckIcon color='white' /> :
-                        props.checkBoxNotSelectedIconIcon ? props.checkBoxNotSelectedIconIcon : <></>
+                        props.checkBoxSelectedIcon ? props.checkBoxSelectedIcon : <CheckIcon color='white' /> :
+                        props.checkBoxNotSelectedIcon ? props.checkBoxNotSelectedIcon : <></>
                     }
                 </View>
             </Pressable>
