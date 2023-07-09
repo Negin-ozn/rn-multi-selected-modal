@@ -134,6 +134,7 @@ We have the props as following for customizing and pass data:
 
 | Prop                          | Description                                                                                                           | Default                                               |
 | ----------------------------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| **`modalStyle`**              | The style of Modal View                                                                                               | [View style](https://reactnative.dev/docs/style.html) |
 | **`checkBoxColor`**           | The color of checkbox when the item is selected. It should be a string value                                          | "#5850EC"                                             |
 | **`listEmptyTitle`**          | The title that is shown when we don't have any result of searching or the data is empty. It should be a string value. | No Item match!                                        |
 | **`itemTitleStyle`**          | Style of the item's title.                                                                                            | [Text style](https://reactnative.dev/docs/style.html) |

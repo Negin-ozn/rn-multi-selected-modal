@@ -15,6 +15,7 @@ interface Prop {
     onClose: () => void;
     modalVisible: boolean;
     selectedItems: List[];
+    modalStyle?: ViewStyle;
     checkBoxColor?: string;
     listEmptyTitle?: string;
     confirmBtnTitle?: string;
@@ -76,7 +77,7 @@ const MultiSelected = (props: Prop) => {
                 visible={props.modalVisible}
                 onRequestClose={() => { }}
             >
-                <View style={styles.modalView}>
+                <View style={[styles.modalView, props.modalStyle]}>
                     <Input
                         value={searchText}
                         onChangeText={searchHandler}
@@ -143,10 +144,9 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        marginTop: 22,
     },
     modalView: {
-        flex: 1,
+        height: 570,
         padding: 20,
         borderRadius: 10,
         marginVertical: '30%',
